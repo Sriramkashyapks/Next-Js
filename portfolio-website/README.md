@@ -4,7 +4,7 @@
 
 A modern, responsive portfolio website showcasing my professional experience, technical skills, and projects. Built with contemporary web technologies focusing on performance, accessibility, and user experience.
 
-[![Portfolio Website Preview](https://img.shields.io/badge/Live-Portfolio-blue)](https://sriramkashyap-portfolio.vercel.app)
+[![Portfolio Website Preview](https://srirams-portfolio.vercel.app/)
 
 ---
 
@@ -39,7 +39,7 @@ Core competencies include:
 
 ```bash
 # Clone the repository
-git clone https://github.com/Sriramkashyapks/portfolio-website.git
+git clone https://github.com/Sriramkashyapks/Next-Js/tree/main/portfolio-website
 
 # Navigate to project directory
 cd portfolio-website
@@ -60,7 +60,6 @@ npm run dev
 ### Key Features
 
 - **Responsive Design:** Optimized for all device sizes
-- **Accessibility:** WCAG compliant with keyboard navigation
 - **Dark/Light Mode:** System preference detection with manual override
 - **Animation:** Performance-optimized motion design
 - **Contact Integration:** Direct email capability with form validation
