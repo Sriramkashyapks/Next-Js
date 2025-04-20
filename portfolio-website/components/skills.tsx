@@ -49,8 +49,6 @@ export default function Skills() {
               transition: {
                 duration: 0.2,
                 type: "tween",
-                stiffness: 300,
-                damping: 20,
               },
               backgroundColor: "#ECF2FF",
               borderRadius: "1rem",
