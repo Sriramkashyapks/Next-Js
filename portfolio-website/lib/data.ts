@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+// import corpcommentImg from "@/public/corpcomment.png";
+// import rmtdevImg from "@/public/rmtdev.png";
+// import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
   {
@@ -35,67 +35,80 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Bachelor of Engineering",
-    location: "Mysore, India",
-    description:
-      "I graduated with a Bachelor's Degree in the filed of Computer Science and Engineering from MIT Mysore college.",
-    icon: React.createElement(LuGraduationCap),
-    date: "Dec 2020 - Jun 2024",
-  },
-  {
-    title: "Software Engineer Trainee",
+    title: "SDE-1 @Alferix Inc",
     location: "Coimbatore, India",
     description:
-      "I worked as a Frontend Developer for 6 months and was promoted to Software Engineer. During this time, I contributed to projects involving React as a frontend developer.",
+      "Built core modules for an enterprise compliance platform using Next.js, Nest.js, and MongoDB. Diagnosed bottlenecks, applied targeted indexing (44% faster load times), and shipped frontend features for an Azure-hosted platform.",
     icon: React.createElement(CgWorkAlt),
-    date: "Sep 2024 - Mar 2025",
+    date: "Sep 2024 - Current",
   },
   {
-    title: "Software Developer",
-    location: "Coimbatore, India",
+    title: "Frontend Developer @Curious Ecosystem",
+    location: "Remote",
     description:
-      "I’m currently working with Next.js and NestJS on an upcoming project, and I'm looking forward to exploring more on both the frontend and backend sides to further enhance my skills.",
+      "Implemented API integrations with Axios, dynamic routing with React Router, and robust Redux state management. Coordinated feature delivery with backend teams and designed Figma prototypes.",
     icon: React.createElement(FaReact),
-    date: "Mar 2025 - present",
+    date: "Aug 2023 - Sep 2024",
   },
+  {
+    title: "Bachelors of Computer Science",
+    location: "Mysuru, India",
+    description:
+      "Graduated from Maharaja Institute of Technology, Mysore with an 8 CGPA.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2020 - 2024",
+  },
+
 ] as const;
 
 export const projectsData = [
   {
-    title: "Notes Application",
+    title: "RehearseMe",
     description:
-      "Developed an Android application using Java. The application features a customizable user interface, enabling users to personalize their experience with preferred colors and themes including quick search option.",
-    tags: ["Java", "Android Studio"],
-    link: "https://github.com/Sriramkashyapks/notes_app",
+      "Agentic Interview Preparation Simulator. Architected a real-time AI mock interview engine using FastAPI and WebSockets. Engineered a targeted RAG pipeline (LangChain, pgvector, OpenAI) to extract context from user resumes and calculate automated performance scores.",
+    tags: ["FastAPI", "Python", "WebSockets", "LangChain", "OpenAI", "React", "Next.js"],
+    demoUrl: "https://rehearseme.vercel.app/",
+    githubUrl: "https://github.com/Sriramkashyapks/rehearseme",
   },
   {
-    title: "Disney Plus Clone",
+    title: "NitroLink",
     description:
-      "I created a Disney clone web app, using Axios to fetch TMDb data using themovieorg, organizing movies by genre, and integrating Tailwind CSS styling.",
-    tags: ["React", "Tailwind", "Redux", "Axios", "Figma"],
-    link: "https://github.com/Sriramkashyapks/react/tree/main/Projects/DisneyPlusClone",
+      "Intent-Based Liquidity Engine abstracting cross-chain complexity. Features a 'Rapid Zap' teleporter via LI.FI SDK and a 'Flash Stream' off-chain State Channel via NestJS WebSockets for high-frequency value transfers, settling on Base Sepolia.",
+    tags: ["Next.js", "Tailwind", "LI.FI SDK", "NestJS", "Socket.io", "Wagmi", "MongoDB"],
+    demoUrl: "https://nitrolink-web.vercel.app/",
+    githubUrl: "https://github.com/Sriramkashyapks/nitrolink",
   },
   {
-    title: "Eye Pointer Technology",
+    title: "Stakra",
     description:
-      "Developed an eye-controlled virtual keyboard using Python, enabling disabled users to communicate through real-time eye detection, blink key presses, gaze navigation, and audio feedback.",
-    tags: ["Python", "OpenCV"],
-    link: "https://github.com/Sriramkashyapks/Eye-Pointer-technology",
+      "Decentralized lending protocol providing non-custodial credit lines and Buy Now, Pay Later (BNPL) functionality on the BNB Chain. Leverages isolated smart vaults and a proprietary ZK-verified price oracle for secure collateral management.",
+    tags: ["Next.js", "Solidity", "Smart Contracts", "DeFi", "BNB Chain"],
+    demoUrl: "https://stakra.vercel.app/",
+    githubUrl: "https://github.com/Sneekyboots/Stakra",
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
   "JavaScript",
   "TypeScript",
   "React",
   "Next.js",
-  "Git",
+  "Zustand",
   "Tailwind CSS",
-  "Redux",
-  "Python",
-  "Java",
-  "Framer Motion",
-  "Android Studio",
+  "Node.js",
+  "Nest.js",
+  "REST APIs",
+  "WebSockets",
+  "GraphQL",
+  "MongoDB",
+  "PostgreSQL",
+  "Docker",
+  "Azure",
+  "LangChain",
+  "OpenAI API",
+  "RAG",
+  "Jest",
+  "Git",
+  "Postman",
+  "Figma",
 ] as const;

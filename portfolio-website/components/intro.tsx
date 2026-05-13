@@ -45,9 +45,9 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Sriram Kashyap.</span> I'm a{" "}
-        <span className="font-bold">Software developer</span>. I enjoy
-        designing <span className="italic">sites & apps</span> <span className="font-bold">that Transform Ideas to Stunning Interfaces</span>. My focus is{" "}
-        <span className="underline">Frontend Development</span>.
+        <span className="font-bold">Full Stack Engineer</span>. I build{" "}
+        <span className="italic">end-to-end applications</span> that combine{" "}
+        <span className="font-bold">complex backend logic with AI-driven features</span> and streamlined with minimal materialistic interfaces.
       </motion.h1>
 
       <motion.div
@@ -72,12 +72,12 @@ export default function Intro() {
 
         <Link
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-[1.1] active:scale-105 transition-transform cursor-pointer borderBlack dark:bg-white/10"
-          href="https://drive.google.com/file/d/1cklCqq2TBkd8srV4m95wAhOy-IEu2xGO/view?usp=sharing"
+          href="https://drive.google.com/file/d/1RtZhLSvCI6LJNEtx7YxaeezsqNF_2ymZ/view?usp=sharing"
           target="_blank"
         >
           <HiOutlineEye className="opacity-60 transition-transform" />
           View CV{" "}
-          
+
         </Link>
 
         <Link

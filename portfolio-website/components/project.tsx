@@ -5,13 +5,16 @@ import { projectsData } from "@/lib/data";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { HiOutlineEye } from "react-icons/hi";
 
+import { FaGithubSquare } from "react-icons/fa";
+
 type ProjectProps = (typeof projectsData)[number];
 
 export default function Project({
   title,
   description,
   tags,
-  link,
+  demoUrl,
+  githubUrl,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -35,17 +38,30 @@ export default function Project({
       <section className="bg-gray-50 dark:bg-white/10 border border-black/5 rounded-xl p-6 w-full">
         <div className="flex items-center justify-between mb-2">
           <h3 className="text-2xl font-semibold text-gray-900 dark:text-white">{title}</h3>
-          {link && (
-            <a
-              href={link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-1 px-3 py-1 text-sm font-medium rounded-full bg-blue-100 hover:bg-blue-200 text-blue-700 transition"
-            >
-              <HiOutlineEye className="text-lg" />
-              View
-            </a>
-          )}
+          <div className="flex gap-2">
+            {githubUrl && (
+              <a
+                href={githubUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 px-3 py-1 text-sm font-medium rounded-full bg-gray-200 hover:bg-gray-300 dark:bg-white/10 dark:hover:bg-white/20 text-gray-800 dark:text-white transition"
+              >
+                <FaGithubSquare className="text-lg" />
+                Code
+              </a>
+            )}
+            {demoUrl && (
+              <a
+                href={demoUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 px-3 py-1 text-sm font-medium rounded-full bg-blue-100 hover:bg-blue-200 text-blue-700 transition"
+              >
+                <HiOutlineEye className="text-lg" />
+                Live Demo
+              </a>
+            )}
+          </div>
         </div>
         <p className="mb-6 mt-6 text-gray-700 dark:text-white/70">{description}</p>
         <ul className="flex flex-wrap gap-2">

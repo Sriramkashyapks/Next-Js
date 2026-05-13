@@ -19,25 +19,20 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        I'm a passionate <span className="font-medium text-lg">Frontend Developer</span> with a strong focus on{" "}
-        <span className="font-medium text-md">UI/UX design and building the same</span> for creating accessible, performance-optimized web experiences. 
-        I've built impactful projects like an eye-controlled virtual keyboard to help differently-abled individuals, 
-        and contributed to social causes through my work with the{" "}
-        <span className="font-medium">Soul of Braj Federation</span>. My current stack includes{" "}
-        <span className="font-medium">React JS, Tailwind CSS, JavaScript</span>, 
-        and I’m constantly exploring new technologies and frameworks.
+        I'm a <span className="font-medium text-lg">Full Stack Engineer (SDE-1)</span> with nearly 2 years of experience building and maintaining production systems.
+        I specialize in <span className="font-medium">React, Next.js, Nest.js, and MongoDB</span>. I've delivered scalable features,
+        resolved live production issues, and optimized application performance to improve user experience. My current focus is on{" "}
+        <span className="font-medium">system design and AI-integrated tooling</span> following agile methodology.
       </p>
 
       <p className="mb-3">
-        <span className="italic">What excites me most</span> is transforming ideas into interactive user experiences. 
-        I enjoy contributing to open-source, collaborating on meaningful projects, and always strive for clean, maintainable code. 
-        I've also explored areas like <span className="font-medium">computer vision with Python and OpenCV</span>, 
-        and have hands-on experience with <span className="font-medium">Git, GitHub, MongoDB, and AWS</span>.
+        <span className="italic">My core skills</span> include JavaScript, TypeScript, Node.js, Next.js, Mongo DB .
+        I am also actively working with <span className="font-medium">AI/ML technologies</span> such as LangChain, OpenAI API, and RAG pipelines.
+        I'm always eager to learn and implement new technologies to build robust and efficient systems.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I’ll be usually attending tech events, gaming, or 
-        working on side projects with my team.
+        <span className="italic">In my free time</span>, I usually attending tech events do gaming, or rome around to explore world beneath us.
       </p>
     </motion.section>
   );
